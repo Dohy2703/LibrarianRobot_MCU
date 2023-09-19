@@ -6,8 +6,8 @@
 /* DC Motor instances*/
 CEncoder* CEncoder::instances[3] = {NULL, NULL, NULL};
 CEncoder CMotor_L, CMotor_R, CMotor_B;
-// CRobotArm robot;
-// CServo cservo;
+CRobotArm robot;
+CServo cservo;
 
 void setup() {
   /* Serial setting */
